@@ -17,7 +17,7 @@ export default class JatekTer {
 
     #lep(id){
         if(this.#korSzamalalo % 2 == 0){
-            this.#lista[id]= `<div jatekter style="background:green">`
+            this.#lista[id]= `<div jatekter style="background:green">>`
         }else{
             this.#lista[id]= `<div jatekter style="background:red">`
         }
